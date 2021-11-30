@@ -24,3 +24,4 @@ d = "10"
 console.log("o valor de a é", c)
 console.log("o valor de b é", d)
 
+
