@@ -35,10 +35,10 @@ verificacao(m, v, n)
  const precoMaior = Number.prompt ("qual e o valor do filme?")
 
  function verificacao (genero, preco, filme, precoMaior) {
-    if (genero && filme, precoMaior === preco ) {
+    if (genero === filme, precoMaior === preco ) {
         console.log("Bom filme!")
     } else 
-    { genero && filme, precoMaior !== preco
+    { genero === filme, precoMaior !== preco
         console.log("Escolha outro filme :(")
     }
 }
