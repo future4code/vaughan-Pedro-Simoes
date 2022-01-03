@@ -71,9 +71,17 @@ const Equilátero = (lado7 === lado8 === lado9)
 }
 
 // EXERCÍCIO 10
-function retornaSegundoMaiorESegundoMenor(array) {
+//function retornaSegundoMaiorESegundoMenor(array) {
+//<<<<<<< html-sistema-loja
+  //[3, 2, 1, 4, 7, 6, 5] retorna [6, 2]
+  //const numerosMaioresMenores = [3, 2, 1, 4, 7, 6, 5]
+//numerosMaioresMenores.sort()
+//numerosMaioresMenores.length(1, 5)
+//}
+//=======
   
-}
+//>>>>>>> master
+//}
 
 // EXERCÍCIO 11
 function retornaChamadaDeFilme(filme) {
