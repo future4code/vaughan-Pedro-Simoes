@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #page-container {
+    height: 82vh;
+    display: flex;
+    flex-direction: column
+  }
+  
+  header {
+    height: 70px;
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 16px;
+    align-items: center;
+  }
+  
+  button {
+    width: 100px;
+  }
+  
+  #menu {
+    flex-grow: 8
+  }
+
+  footer {
+    background-color: lightskyblue;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  nav{
+    width: 20px;
+    background-color: #f2d0e0;
+    padding: 8px;
+  }
+  .card-produto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 2px 5px darkgray;
+    text-align: center;
+  }
+
+  .imagem-card{
+    width: 10%;
+  }
+  .filhos{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 20px;
+    column-gap: 20px;
+    margin: 20px;
+  }
+  main{
+      
+  }
